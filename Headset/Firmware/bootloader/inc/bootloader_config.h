@@ -25,6 +25,8 @@ of patent rights can be found in the PATENTS file in the same directory.
 
 void bootloader_config_init(void);
 
+void bootloader_config_init(void);
+
 memory_region_p bootloader_config_get_region(uint8_t region_num);
 
 #endif /* _BOOTLOADER_CONFIG_H_ */
