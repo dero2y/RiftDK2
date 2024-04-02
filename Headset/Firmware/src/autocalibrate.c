@@ -21,6 +21,7 @@ of patent rights can be found in the PATENTS file in the same directory.
 #include "report_helper.h"
 #include <string.h>
 #include <math.h>
+#include <timestamper.h>
 
 enum {
     OFFSET_NONE = 0,
