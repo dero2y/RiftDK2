@@ -50,6 +50,8 @@ bool bootloader_reboot(void);
 
 void bootloader_init(void);
 
+void bootloader_init(void);
+
 void bootloader_get_config(uint16_t *mask, uint8_t *num_regions);
 
 void bootloader_get_command(uint8_t *command, uint32_t *value);
